@@ -15,7 +15,7 @@ jobs:
       - name: Build firmware
         run: |
           chmod +x scripts/docker-build.sh
-          ./scripts/docker-build.sh
+          ./scripts/docker-build.sh M5StickCPlus2
 
       - name: Upload firmware
         uses: actions/upload-artifact@v4
